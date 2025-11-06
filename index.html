@@ -7,20 +7,70 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- navbar section  -->
-    <div class="container">
-      <nav class="ob-width">
-        <img src="" alt="" />
-        <ul class="nav-list">
-          <li>Home</li>
-          <li>Contact</li>
-          <li>About Us</li>
-          <li>Join</li>
-        </ul>
-      </nav>
-    </div>
+    <!-- Job Listing Section -->
 
-    <!-- hero section -->
-    <div class="hero">This is me</div>
+    <section class="jobs sec-space obj-width">
+      <h2>Jobs in Demand</h2>
+      <p>Most viewed and all-time top-selling services</p>
+
+      <ul class="job-id">
+        <li data-target="all" class="active">Recent Jobs</li>
+        <li data-target="freelancer">Freelancer</li>
+        <li data-target="fullTime">Full Time</li>
+        <li data-target="partTime">Part Time</li>
+      </ul>
+
+      <div class="jobs-container">
+        <li data-item="fullTime" class="jList">
+          <img src="images/google-logo.webp" alt="" />
+          <h3>Web Developer</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Full Time</span>
+        </li>
+        <li data-item="freelancer" class="jList">
+          <img src="images/instagram-logo.webp" alt="" />
+          <h3>Freelancer</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Freelancer</span>
+        </li>
+        <li data-item="partTime" class="jList">
+          <img src="images/apple-logo.webp" alt="" />
+          <h3>Business Associate</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Part Time</span>
+        </li>
+        <li data-item="fullTime" class="jList">
+          <img src="images/linkedin-logo.webp" alt="" />
+          <h3>Digital Marketing</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Full Time</span>
+        </li>
+        <li data-item="partTime" class="jList">
+          <img src="images/facebook-logo.webp" alt="" />
+          <h3>User Experience</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Part Time</span>
+        </li>
+      </div>
+    </section>
+
+    <!-- Brand Section -->
+
+    <section class="trust sec-space obj-width">
+      <h2>Trusted by the world's best</h2>
+      <p>Most viewed and all-time top-selling services</p>
+
+      <div class="t-box">
+        <img src="images/t1-logo.png" alt="" />
+        <img src="images/t2-logo.png" alt="" />
+        <img src="images/t3-logo.png" alt="" />
+        <img src="images/t4-logo.png" alt="" />
+        <img src="images/t5-logo.png" alt="" />
+        <img src="images/t6-logo.png" alt="" />
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="toggle.js"></script>
   </body>
 </html>
